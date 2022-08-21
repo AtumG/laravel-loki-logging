@@ -1,6 +1,6 @@
 <?php
 
-namespace Devcake\LaravelLokiLogging;
+namespace AtumSystems\LaravelLokiLogging;
 
 
 use Illuminate\Console\Command;

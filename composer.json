@@ -1,16 +1,16 @@
 {
-    "name": "devcake-deventer/laravel-loki-logging",
+    "name": "atumsystems/laravel-loki-logging",
     "version": "0.0.1",
     "description": "Logging to Loki for Laravel",
     "type": "library",
     "authors": [
         {
-            "name": "Sven Mol",
-            "email": "s.mol@devcake.nl"
+            "name": "AtumG",
+            "email": "g@atumsystems.com"
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.0|^8.0|^8.1",
         "ext-json": "*",
         "illuminate/support": "^7.0.0",
         "illuminate/console": "^7.0.0",
@@ -18,13 +18,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Devcake\\LaravelLokiLogging\\": "src/"
+            "AtumSystems\\LaravelLokiLogging\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Devcake\\LaravelLokiLogging\\L3ServiceProvider"
+                "AtumSystems\\LaravelLokiLogging\\L3ServiceProvider"
             ]
         }
     }
